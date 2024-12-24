@@ -1,0 +1,30 @@
+{
+	"php_ext":"fileinfo,exif",
+	"chmod":[
+		{"mode":755,"path":"/backend/runtime"},
+		{"mode":755,"path":"/frontend/runtime"},
+		{"mode":755,"path":"/html5/runtime"},
+		{"mode":755,"path":"/api/runtime"},
+		{"mode":755,"path":"/oauth2/runtime"},
+		{"mode":755,"path":"/merchant/runtime"},
+		{"mode":755,"path":"/merapi/runtime"},
+		{"mode":755,"path":"/web/assets"},
+		{"mode":755,"path":"/web/backend/assets"},
+		{"mode":755,"path":"/web/frontend/assets"},
+		{"mode":755,"path":"/web/html5/assets"},
+		{"mode":755,"path":"/web/api/assets"},
+		{"mode":755,"path":"/web/oauth2/assets"},
+		{"mode":755,"path":"/web/merchant/assets"},
+		{"mode":755,"path":"/web/merapi/assets"},
+		{"mode":755,"path":"/web/attachment"},
+		{"mode":755,"path":"/addons"}
+	],
+	"success_url":"/backend",
+	"php_versions":"72,73,74",
+	"db_config":"/common/config/main-local.php",
+	"admin_username":"rageframe",
+	"admin_password":"rageframe888",
+	"run_path":"/web",
+	"remove_file":["/web/.user.ini"],
+	"enable_functions":[]
+}
